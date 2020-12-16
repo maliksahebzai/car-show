@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="/stylesheets/loginstyle.css"/>
+</head>
+<body class="reg-body">
+<!--====form section start====-->
+<div class="register-box">
+    <h2>Register your car for selling</h2>
+    <form action="/users/create" method="POST">
+        <div class="textbox">
+          <label>Car Name</label>
+          <input type="text" placeholder="Enter Car Name" name="name" required>
+    </div>
+        <div class="textbox">
+         <label>Car Companey</label>
+          <input type="text" placeholder="Enter car companey" name="companey" required>
+        </div>
+        <div class="textbox">
+         <label>Car price</label>
+          <input type="text" placeholder="Enter Car price" name="price" required>
+        </div>
+        <div class="textbox">
+          <label>Email Address</label>
+          <input type="email" placeholder="Enter Email Address" name="email" required>
+        </div>
+        <div class="textbox">
+          <label>phone no</label>
+          <input type="number" placeholder="Enter Phone" name="phone" required>
+        </div>
+        <div class="textbox">
+          <label>chose car pic</label>
+          <input type="file" name="pic" >
+        </div>
+        <div>
+          <button class="btn" type="submit">Submit</button>
+        </div>
+        </div>
+    </div>
+<!--====form section start====-->
+</body>
+</html>
